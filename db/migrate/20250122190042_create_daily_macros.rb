@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class CreateDailyMacros < ActiveRecord::Migration[7.1]
   def change
     create_table :daily_macros do |t|
