@@ -1,0 +1,2 @@
+class DailyMacrosController < ApplicationController
+end

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :daily_macros
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
@@ -9,7 +10,6 @@ Rails.application.routes.draw do
   # root "posts#index"
   namespace :api do
     namespace :v1 do
-      
     end
   end
 end
