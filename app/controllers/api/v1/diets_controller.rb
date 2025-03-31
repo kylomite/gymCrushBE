@@ -1,4 +1,8 @@
 # frozen_string_literal: true
 
-class Api::V1::DietsController < ApplicationController
+module Api
+  module V1
+    class DietsController < ApplicationController
+    end
+  end
 end
