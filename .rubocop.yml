@@ -1,0 +1,25 @@
+# .rubocop.yml
+
+# Disable documentation comments check
+Style/Documentation:
+  Enabled: false
+
+# Disable method length check
+Metrics/MethodLength:
+  Enabled: false
+
+# Disable perceived complexity check
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+# Disable cyclomatic complexity check
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+# Disable block length check
+Metrics/BlockLength:
+  Enabled: false
+
+# Disable single quote check
+Style/StringLiterals:
+  Enabled: false
