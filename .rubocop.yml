@@ -19,3 +19,7 @@ Metrics/CyclomaticComplexity:
 # Disable block length check
 Metrics/BlockLength:
   Enabled: false
+
+# Disable single quote check
+Style/StringLiterals:
+  Enabled: false
